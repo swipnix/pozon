@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/gorilla.jpg" type="image/png">
+    <title>GORILLA SHOP</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container_header">
+            <img class="header__img" src="img/gorilla.jpg">
+            <nav class="nav"></nav>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="poz.html" class="nav__link">Главная</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">О нас</a></li>
+                <li class="nav__item"><a onclick="errorLink()" href="" class="nav__link">Скриншоты</a></li>
+                <li class="nav__item"><a onclick="errorLink()" href="" class="nav__link">Отзывы</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero-block">
+            <div class="container container_hero-block">
+                <img class="hero-block__img" src="img/gorilla.jpg">
+
+                <div class="hero-block__content">
+                    <h1 class="hero-block__title"></h1>
+                    <a href="https://t.me/grishillashop" class="hero-block__link">Написать нам</a>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container_about container">
+                <h2 class="about__title">О GORILLA SHOP</h2>
+                <div class="about__content">
+                    <p class="about__text">GORILLA SHOP - Магазин оригинальных, брендовых вещей. Наш магазин пытается предоставить самые малые цены на рынке . Доставка товаров с Китайских площадок.
+
+                        Личная встреча в Москве и Екатеринбурге.
+                       
+                       Отправляю: СНГ ЛЮБЫЕ СЛУЖБЫ ДОСТАВКИ.</p>
+                    <img class="about__img" src="img/gris.jpg">
+                </div>
+            </div>
+        </section>
+        <!-- <section class="video">
+            <div class="container_video container">
+                <h2 class="video__title">Кратко о нас</h2>
+                <div class="shorts"><iframe class="video__video" src=""
+                        title="Кратко о нас" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            </div>
+        </section>
+         -->
+        <section class="gallery">
+            <h2 class="gallery__title">Галерея</h2>
+            <ul class="gallery__list">
+                <li class="gallery__item">
+                    <a href="" class="lightzoom">
+                        <img class="gallery__img" src="img/ZIPPO.jpg" />
+                    </a>
+                </li>
+                <li class="gallery__item">
+                    <a href="" class="lightzoom">
+                        <img class="gallery__img" src="img/NEW.jpg" />
+                    </a>
+                </li>
+                <li class="gallery__item">
+                    <a href="" class="lightzoom">
+                        <img class="gallery__img" src="img/TS.jpg" />
+                    </a>
+                </li>
+                <li class="gallery__item">
+                    <a href="" class="lightzoom">
+                        <img class="gallery__img" src="img/ada.jpg" />
+                    </a>
+                </li>
+                <li class="gallery__item">
+                    <a href="" class="lightzoom">
+                        <img class="gallery__img" src="img/nike.jpg" />
+                    </a>
+                </li>
+                <li class="gallery__item">
+                    <a href="" class="lightzoom">
+                        <img class="gallery__img" src="img/pre.jpg" />
+                    </a>
+                </li>
+                <li class="gallery__item">
+                    <a href="" class="lightzoom">
+                        <img class="gallery__img" src="img/lavka.jpg" />
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container_footer container">
+            <div class="footer__content">
+                <h4 class="footer__title">GORILLA</h4>
+                <p class="footer__text">&copy; 2024 made from Russian swipnix</p>
+            </div>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="https://t.me/grishillashop" target="_blank"><img class="footer__img" src="img/icon_tg (1).png"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+    <script type="text/javascript">
+        jQuery('.lightzoom').lightzoom({ speed: 400, viewTitle: true, isOverlayClickClosing: true, isWindowClickClosing: true });
+    </script>
+    <script>
+        function errorLink() {
+            alert ('Данное окно на данный момент не доступно.')
+        }
+    </script>
+</body>
+
+</html>
